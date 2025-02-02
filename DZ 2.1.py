@@ -7,6 +7,7 @@ number_three = (number % 100) // 10   # ведене число ділимо н�
 number_four = number % 10             # беремо залишок від числа і заокруглюємо його до цілого
 
 
+
 print(number_one)
 print(number_two)
 print(number_three)
