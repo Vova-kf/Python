@@ -8,7 +8,8 @@ number_four = (number % 100) // 10      # ведене число ділимо �
 number_five = number % 10               # беремо залишок від числа і заокруглюємо його до цілого
 
 
+result =str(number_five) + str(number_four) + str(number_three) + str(number_two) + str(number_one)
+print(result)
 
 
-print(number_five,number_four,number_three,number_two,number_one)
 
