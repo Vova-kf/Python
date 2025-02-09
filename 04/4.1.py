@@ -1,10 +1,12 @@
-# first_list = [1, 3, 4, 0, 5, 0, 7, 0, 0, 2]
-#
-# first_list.sort(reverse=False)
-#
-# print(first_list)
+lst = [0, 1, 0, 3, 12, 11, 0, 5]
+a = 0
 
+for null in lst:
+    if null != 0:
+        lst[a] = null
+        a +=1
 
-first_list = [[1, 2, 3], [4, 5, 6]]
-tmp = first_list.copy()
-print(id(first_list) == id(tmp))  #  False
+for i in range(a, len(lst)):
+    lst[i] = 0
+
+print(lst)
