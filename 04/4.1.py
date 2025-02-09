@@ -9,4 +9,5 @@ for null in lst:
 for i in range(a, len(lst)):
     lst[i] = 0
 
+
 print(lst)
