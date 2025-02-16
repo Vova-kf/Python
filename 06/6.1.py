@@ -1,13 +1,13 @@
-number = int(input('Введіть число: '))
+import string
 
-while number > 9:
-    my_list = [int(d) for d in str(number)]  #
-    result = my_list[0]
-    for a in my_list[1:]:
-        result *= a
+a = input('Ведіть дві букви через - :' ).split("-")
 
-    number = result
+letter = string.ascii_letters
 
-print(number)
+one_letter = letter.index(a[0])
+two_letter = letter.index(a[1])
 
+new_lst = letter[one_letter:two_letter +1]
+
+print(new_lst)
 
