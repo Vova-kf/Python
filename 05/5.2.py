@@ -20,8 +20,8 @@ def calculator():
             return
 
         print('Дорівнює: ' + str(result))
-        action = input("Продовжити? (y/n): ")
-        if action == "n":
+        action = input("Продовжити? (y/n): ").lower()
+        if action != "y":
             break
 calculator()
 
