@@ -21,7 +21,7 @@ def calculator():
 
         print('Дорівнює: ' + str(result))
         action = input("Продовжити? (y/n): ").lower()
-        if action != "y":
+        if action not in ("y", "yes"):
             break
 calculator()
 
