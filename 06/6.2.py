@@ -16,6 +16,6 @@ else:
         day_word = "днів"
 
 
-    number_time = f"{str(hours).zfill(2)}:{str(minutes).zfill(2)}:{str(seconds).zfill(2)}"
+    number_time = f"{str(hours)}:{str(minutes)}:{str(seconds)}"
 
     print(f"{days} {day_word}, {number_time}")
